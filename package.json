@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "JavaScript development environment Pluralsight course by Cory House",
   "scripts": {
-    "prestart": "node buildScripts/startMessages.js",
-    "start":"node buildScripts/srcServer.js",
+    "prestart": "babel-node buildScripts/startMessages.js",
+    "start":"npm-run-all --parallel security-check open:src",
+    "open:src":"babel-node buildScripts/srcServer.js",
     "security-check":"nsp check",
-    "share":"lt --port 3000 --subdomain hill"
+    "localtunnel": "lt --port 3000",
+    "share":"npm-run-all --parallel open:src localtunnel"
   },
   "author": "Antonio Jr",
   "license": "MIT",
