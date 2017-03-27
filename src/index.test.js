@@ -1,3 +1,5 @@
+// testes de javascriptutilizando o DOM em memoria
+
 import {expect} from "chai";
 import jsdom from "jsdom";
 import fs from "fs";
