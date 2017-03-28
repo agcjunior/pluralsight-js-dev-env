@@ -17,6 +17,13 @@ app.get('/', function(req, res){
   res.sendFile(path.join(__dirname,'../src/index.html'));
 });
 
+app.get('/users', function(req, res){
+  res.json([
+    {"id":1, "firstName":"Antonio", "lastName":"Castro Jr", "email":"agcjr@hotmail.com"},
+    {"id":2, "firstName":"Maria do Carmo", "lastName":"Rodrigues", "email":"mccarmo@outlook.com"},
+  ]);
+});
+
 app.listen(port, function(err){
   if (err){
     console.log(err);
