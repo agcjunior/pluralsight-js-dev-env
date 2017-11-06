@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 53772921,
+      "firstName": "Alayna",
+      "lastName": "Brekke",
+      "email": "Abigale_Mueller@yahoo.com"
+    },
+    {
+      "id": 31792947,
+      "firstName": "Hortense",
+      "lastName": "Raynor",
+      "email": "Toni_Rolfson93@gmail.com"
+    },
+    {
+      "id": 46658031,
+      "firstName": "Alison",
+      "lastName": "Huel",
+      "email": "Stan.Upton@yahoo.com"
+    },
+    {
+      "id": 92926103,
+      "firstName": "Gretchen",
+      "lastName": "Cummings",
+      "email": "Webster_Lynch95@yahoo.com"
+    },
+    {
+      "id": 57606519,
+      "firstName": "Dennis",
+      "lastName": "Smitham",
+      "email": "Willa_Wolf67@yahoo.com"
+    }
+  ]
+}
